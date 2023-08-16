@@ -1,8 +1,8 @@
 locals {
   region    = "us-east-2"
-  sns_topic = "arn:aws:sns:us-east-2:968521256074:devops-notifications" #"##YOUR SNS TOPIC ARN"
-  alb_name  = "dev-frontend-alb"                                        #"##YOUR ALB NAME"
-  tg_name   = "dev-frontend-8080-tg"                                    #"##YOUR ALB NAME"
+  sns_topic = "YOUR SNS TOPIC ARN"
+  alb_name  = "YOUR ALB NAME"                                  
+  tg_name   = "YOUR ALB TG NAME"      
 }
 
 provider "aws" {
